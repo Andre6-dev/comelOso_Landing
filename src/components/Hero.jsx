@@ -371,9 +371,9 @@ export function Hero() {
           </div>
           <div className="relative -mt-4 lg:col-span-7 lg:mt-0 xl:col-span-6">
             <p className="text-center text-sm font-semibold text-gray-900 lg:text-left">
-              As featured in
+              Buscanos en PlayStore
             </p>
-            <ul
+            {/*<ul
               role="list"
               className="mx-auto mt-8 flex max-w-xl flex-wrap justify-center gap-x-10 gap-y-8 lg:mx-0 lg:justify-start"
             >
@@ -391,7 +391,7 @@ export function Hero() {
                   <Image src={logo} alt={name} className="h-8" unoptimized />
                 </li>
               ))}
-            </ul>
+            </ul>*/}
           </div>
         </div>
       </Container>
